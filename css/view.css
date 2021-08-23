@@ -51,7 +51,7 @@
 }
 .logo
 {
-    width: 30%;
+    width: 400px;
     position:relative;
     left: 2%;
     top: 2%;
@@ -60,18 +60,20 @@
     padding: 2px;
     border-radius: 10px;
     color: rgb(255, 255, 255);
-    box-shadow: 1px 1px 1px 1px rgba(174, 144, 194, 0.548);
+    box-shadow: 1px 1px 1px 1px rgba(197, 148, 229, 0.548);
     
 }
 .git-profile
 {
-    width: 20%;
+    width: 250px;
     display:flex;
     position:relative;
     left: 80%;
     bottom: 3%;
     text-align: center;
     padding: 5px;
+    border: 1px solid violet;
+    box-shadow: 1px 1px 1px 1px rgba(228, 146, 221, 0.548);
 
 }
 .git-profile h4{
@@ -85,4 +87,31 @@
     background-color: rgb(229, 124, 255);
     padding: 5px;
     border-radius:5px;
+}
+
+
+@media only screen and (orientation:portrait)  {
+
+    .logo
+    {
+        width: 230px;
+        font-size: 0.7rem;
+        
+    }
+    .git-profile
+    {
+        width: 250px;
+        position: relative;
+        left: 60%;
+    }
+    .list
+    {
+        width: 95%;
+
+    }
+    .list ul li
+    {
+        margin: 10px;
+    }
+
 }
