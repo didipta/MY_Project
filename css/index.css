@@ -3,7 +3,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    
+    font-family: 'Shadows Into Light', cursive;
     
 }
 body
@@ -66,7 +66,7 @@ body
     font-size: 1rem;
     box-shadow: inset 0 0 0 0 rgba(32, 32, 32, 0.432);
     border-radius: 9px;
-    font-family: 'Shadows Into Light', cursive;
+    
   }
   
 .btn:hover
@@ -75,6 +75,16 @@ body
     transition: 2.5s;
     color: rgb(0, 0, 0);
     border: 2px solid rgb(107, 107, 107);
+}
+footer
+{
+    position: relative;
+    top: 30vw;
+    left: 45vw;
+    font-weight: 900;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    z-index: 2;
 }
 @media only screen and (orientation:portrait)  {
 
