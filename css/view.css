@@ -20,7 +20,7 @@
 {
     
     position:absolute;
-    width: 75%;
+    width: 95%;
     background-color: rgb(255, 255, 255);
     box-shadow: 2px 2px 5px 2px rgba(182, 182, 182, 0.548);
     margin: 10px;
@@ -49,31 +49,37 @@
 {
     background-color: rgb(201, 201, 201);
 }
+.header
+{
+    width: 100%;
+    display:flex;
+}
 .logo
 {
-    width: 400px;
+    width: 30%;
+    height: 50px;
     position:relative;
     left: 2%;
-    top: 2%;
-    background-image: linear-gradient(45deg,rgb(245, 154, 51),rgb(185, 64, 255));
-    padding-left: 10px;
-    padding: 2px;
+    background-image: linear-gradient(45deg,rgb(255, 255, 255),rgb(32, 103, 255));
+    padding: 10px;
+    margin-top: 10px;
     border-radius: 10px;
-    color: rgb(255, 255, 255);
-    box-shadow: 1px 1px 1px 1px rgba(197, 148, 229, 0.548);
+    color: rgb(53, 53, 53);
+    box-shadow: 1px 1px 5px 1px rgba(231, 113, 255, 0.548);
+    font-size: 0.7rem;
     
 }
 .git-profile
-{
-    width: 250px;
+{   width: 20%;
     display:flex;
     position:relative;
-    left: 80%;
-    bottom: 3%;
+    left: 45%;
+    margin-top: 10px;
     text-align: center;
     padding: 5px;
     border: 1px solid violet;
     box-shadow: 1px 1px 1px 1px rgba(228, 146, 221, 0.548);
+    border-radius: 10px;
 
 }
 .git-profile h4{
@@ -94,15 +100,15 @@
 
     .logo
     {
-        width: 230px;
-        font-size: 0.7rem;
+        width:50%;
+        font-size: 0.6rem;
         
     }
     .git-profile
     {
-        width: 210px;
+        width: 45%;
         position: relative;
-        left: 55%;
+        left: 5%;
     }
     .list
     {
