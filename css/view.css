@@ -139,6 +139,11 @@ a{
 }
 @media only screen and (orientation:portrait)  {
 
+*{
+  font-family: 'Jost', sans-serif;
+
+}
+
     .logo
     {
         width:50%;
